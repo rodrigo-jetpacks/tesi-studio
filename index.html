@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teresita Castelli · Hand-embroidered miniatures in acrylic</title>
-  <meta name="description" content="Teresita Castelli is an Argentinian artist making delicate hand-embroidered miniatures encased in clear acrylic boxes. Originals and bespoke commissions.">
+  <title data-i18n="meta.title">Teresita Castelli · Hand-embroidered miniatures in acrylic</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="Teresita Castelli is an Argentinian artist making delicate hand-embroidered miniatures encased in clear acrylic boxes. Originals and bespoke commissions.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,23 +21,26 @@
 </head>
 <body>
 
-  <a href="#main-content" class="skip-link">Skip to content</a>
+  <a href="#main-content" class="skip-link" data-i18n="skip">Skip to content</a>
 
   <nav class="nav" id="nav">
     <a href="#home" class="nav__brand">
       <span class="nav__mark"><span class="nav__mark-top">tt</span><span class="nav__mark-bot">s</span></span>
       <span class="nav__name">Tesi Studio</span>
     </a>
+    <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+      <span class="lang-toggle__label">ES</span>
+    </button>
     <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav__links" id="nav-links">
-      <li><a href="#work">Work</a></li>
-      <li><a href="#process">Process</a></li>
-      <li><a href="#statement">Statement</a></li>
-      <li><a href="#commissions">Commissions</a></li>
-      <li><a href="#contact" class="nav__cta">Inquire</a></li>
-      <li><a href="https://tienda.tesistudio.com" target="_blank" rel="noopener" class="nav__cta nav__cta--shop">Tienda</a></li>
+      <li><a href="#work" data-i18n="nav.work">Work</a></li>
+      <li><a href="#process" data-i18n="nav.process">Process</a></li>
+      <li><a href="#statement" data-i18n="nav.statement">Statement</a></li>
+      <li><a href="#commissions" data-i18n="nav.commissions">Commissions</a></li>
+      <li><a href="#contact" class="nav__cta" data-i18n="nav.inquire">Inquire</a></li>
+      <li><a href="https://tienda.tesistudio.com" target="_blank" rel="noopener" class="nav__cta nav__cta--shop" data-i18n="nav.shop">Tienda</a></li>
     </ul>
   </nav>
 
@@ -47,18 +50,18 @@
     <section class="hero" id="home" aria-labelledby="hero-title">
       <div class="hero__grain" aria-hidden="true"></div>
       <div class="hero__inner container">
-        <p class="eyebrow">Buenos Aires · est. 2019</p>
-        <h1 class="hero__title" id="hero-title">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Buenos Aires · est. 2019</p>
+        <h1 class="hero__title" id="hero-title" data-i18n-html="hero.title">
           Tiny worlds<br>
           <em>stitched by hand,</em><br>
           held in clear acrylic.
         </h1>
-        <p class="hero__lede">
+        <p class="hero__lede" data-i18n="hero.lede">
           I'm Teresita, an Argentinian artist making hand-embroidered miniatures and acrylic-box paintings. Each piece is sewn one thread at a time, then suspended inside a transparent box so you can walk around it.
         </p>
         <div class="hero__ctas">
-          <a href="#work" class="btn btn--primary">See the work</a>
-          <a href="#commissions" class="hero__text-link">Commission a piece →</a>
+          <a href="#work" class="btn btn--primary" data-i18n="hero.cta">See the work</a>
+          <a href="#commissions" class="hero__text-link" data-i18n="hero.link">Commission a piece →</a>
         </div>
       </div>
       <figure class="hero__media">
@@ -70,15 +73,15 @@
     <section class="work" id="work" aria-labelledby="work-title">
       <div class="container">
         <header class="section-header animate-on-scroll">
-          <p class="eyebrow">Selected work</p>
-          <h2 class="section-title" id="work-title">Pieces from the studio</h2>
-          <p class="section-lede">Each work is one-of-a-kind. Embroidered miniatures: figures, garments, small talismans, mounted on gold leaf and floated inside a handmade clear acrylic box. No two are the same size, and no two are ever repeated.</p>
+          <p class="eyebrow" data-i18n="work.eyebrow">Selected work</p>
+          <h2 class="section-title" id="work-title" data-i18n="work.title">Pieces from the studio</h2>
+          <p class="section-lede" data-i18n="work.lede">Each work is one-of-a-kind. Embroidered miniatures: figures, garments, small talismans, mounted on gold leaf and floated inside a handmade clear acrylic box. No two are the same size, and no two are ever repeated.</p>
         </header>
 
         <div class="work__filters" role="tablist">
-          <button class="filter-btn is-active" data-filter="all" role="tab">All</button>
-          <button class="filter-btn" data-filter="acrylic" role="tab">Acrylic boxes</button>
-          <button class="filter-btn" data-filter="embroidery" role="tab">Embroidery studies</button>
+          <button class="filter-btn is-active" data-filter="all" role="tab" data-i18n="work.filterAll">All</button>
+          <button class="filter-btn" data-filter="acrylic" role="tab" data-i18n="work.filterAcrylic">Acrylic boxes</button>
+          <button class="filter-btn" data-filter="embroidery" role="tab" data-i18n="work.filterEmbroidery">Embroidery studies</button>
         </div>
 
         <div class="work__grid" id="work-grid">
@@ -87,18 +90,18 @@
             <div class="project-card__image">
               <img src="assets/images/fotos%20de%20arte/Modelos%20disponibles/b192152a-73b5-4ba8-ac87-ad82403fa179.JPG" alt="Hand-embroidered miniature of a dress mounted in an open acrylic box, available from the studio" loading="lazy">
               <div class="project-card__overlay">
-                <span class="project-card__type">Acrylic (open) box · Available</span>
+                <span class="project-card__type" data-i18n="work.card1Type">Acrylic (open) box · Available</span>
                 <h3 class="project-card__title">Ventana I</h3>
-                <p class="project-card__desc">An available original. Embroidered figures on a gentle textile, ready to travel to its new home.</p>
+                <p class="project-card__desc" data-i18n="work.card1Desc">An available original. Embroidered figures on a gentle textile, ready to travel to its new home.</p>
                 <div class="project-card__links">
-                  <a href="#contact" class="project-link">Inquire →</a>
+                  <a href="#contact" class="project-link" data-i18n="work.inquire">Inquire →</a>
                 </div>
               </div>
             </div>
             <div class="project-card__meta">
               <h3 class="project-card__name">Ventana I</h3>
-              <p class="project-card__tags"><span>Available</span><span>Paspartou · thread · acrylic</span></p>
-              <a href="#contact" class="project-card__inquire">Inquire →</a>
+              <p class="project-card__tags"><span data-i18n="work.card1Tags1">Available</span><span data-i18n="work.card1Tags2">Paspartou · thread · acrylic</span></p>
+              <a href="#contact" class="project-card__inquire" data-i18n="work.inquire">Inquire →</a>
             </div>
           </article>
 
@@ -106,18 +109,18 @@
             <div class="project-card__image">
               <img src="assets/images/fotos%20de%20arte/Modelos%20disponibles/07009AC3-A53A-43A8-A4B1-C1BE04E8B9C1.JPG" alt="Compact acrylic box piece with hand-embroidered miniature figures in a garden arrangement" loading="lazy">
               <div class="project-card__overlay">
-                <span class="project-card__type">Acrylic box · Available</span>
+                <span class="project-card__type" data-i18n="work.card2Type">Acrylic box · Available</span>
                 <h3 class="project-card__title">Pequeño mundo</h3>
-                <p class="project-card__desc">A compact world. Available original ready to hang.</p>
+                <p class="project-card__desc" data-i18n="work.card2Desc">A compact world. Available original ready to hang.</p>
                 <div class="project-card__links">
-                  <a href="#contact" class="project-link">Inquire →</a>
+                  <a href="#contact" class="project-link" data-i18n="work.inquire">Inquire →</a>
                 </div>
               </div>
             </div>
             <div class="project-card__meta">
               <h3 class="project-card__name">Pequeño mundo</h3>
-              <p class="project-card__tags"><span>Available</span><span>Thread · acrylic</span></p>
-              <a href="#contact" class="project-card__inquire">Inquire →</a>
+              <p class="project-card__tags"><span data-i18n="work.card2Tags1">Available</span><span data-i18n="work.card2Tags2">Thread · acrylic</span></p>
+              <a href="#contact" class="project-card__inquire" data-i18n="work.inquire">Inquire →</a>
             </div>
           </article>
 
@@ -125,18 +128,18 @@
             <div class="project-card__image">
               <img src="assets/images/fotos%20de%20arte/Detalles%20de%20Modelos/CE692366-6D35-4AC7-BC40-7F20638D5D55.JPG" alt="Extreme close-up of hand-embroidered miniature showing individual thread stitches and texture" loading="lazy">
               <div class="project-card__overlay">
-                <span class="project-card__type">Embroidery detail</span>
+                <span class="project-card__type" data-i18n="work.card3Type">Embroidery detail</span>
                 <h3 class="project-card__title">Hilo por hilo</h3>
-                <p class="project-card__desc">Each miniature stitched thread by thread. Up close, the scale of the work reveals itself.</p>
+                <p class="project-card__desc" data-i18n="work.card3Desc">Each miniature stitched thread by thread. Up close, the scale of the work reveals itself.</p>
                 <div class="project-card__links">
-                  <a href="#contact" class="project-link">Inquire →</a>
+                  <a href="#contact" class="project-link" data-i18n="work.inquire">Inquire →</a>
                 </div>
               </div>
             </div>
             <div class="project-card__meta">
               <h3 class="project-card__name">Hilo por hilo</h3>
-              <p class="project-card__tags"><span>Detail</span><span>Cotton · silk thread</span></p>
-              <a href="#contact" class="project-card__inquire">Inquire →</a>
+              <p class="project-card__tags"><span data-i18n="work.card3Tags1">Detail</span><span data-i18n="work.card3Tags2">Cotton · silk thread</span></p>
+              <a href="#contact" class="project-card__inquire" data-i18n="work.inquire">Inquire →</a>
             </div>
           </article>
 
@@ -147,10 +150,10 @@
     <!-- PROCESS -->
     <section class="process" id="process" aria-labelledby="process-title">
       <div class="container process__header animate-on-scroll">
-        <p class="eyebrow">Process</p>
-        <h2 class="section-title" id="process-title">Slow work,<br>in small rooms.</h2>
-        <p>Each piece begins with a thread and a drawing. The miniatures are embroidered by hand on cotton or silk, sometimes barely two centimeters across. Once finished, they're mounted on gold-leafed panels and sealed inside a custom-cut acrylic box.</p>
-        <p>Nothing is printed. Nothing is batched. A single work takes between two weeks and three months to finish.</p>
+        <p class="eyebrow" data-i18n="process.eyebrow">Process</p>
+        <h2 class="section-title" id="process-title" data-i18n-html="process.title">Slow work,<br>in small rooms.</h2>
+        <p data-i18n="process.p1">Each piece begins with a thread and a drawing. The miniatures are embroidered by hand on cotton or silk, sometimes barely two centimeters across. Once finished, they're mounted on gold-leafed panels and sealed inside a custom-cut acrylic box.</p>
+        <p data-i18n="process.p2">Nothing is printed. Nothing is batched. A single work takes between two weeks and three months to finish.</p>
       </div>
 
       <div class="container process__moments animate-on-scroll">
@@ -158,25 +161,25 @@
           <div class="process__moment-media">
             <video src="assets/video/card-encaje.mp4" poster="assets/video/card-encaje-poster.jpg" muted loop playsinline autoplay aria-label="Video of hand embroidery in progress"></video>
           </div>
-          <p class="process__moment-label"><span>01</span> Encaje</p>
+          <p class="process__moment-label"><span>01</span> <span data-i18n="process.step1">Encaje</span></p>
         </div>
         <div class="process__moment">
           <div class="process__moment-media">
             <img src="assets/images/fotos%20de%20arte/Clientes/client%20camilla-installing-box.jpg" alt="Camilla installing the acrylic box on the wall" loading="lazy">
           </div>
-          <p class="process__moment-label"><span>02</span> Montaje</p>
+          <p class="process__moment-label"><span>02</span> <span data-i18n="process.step2">Montaje</span></p>
         </div>
         <div class="process__moment">
           <div class="process__moment-media">
             <img src="assets/images/fotos%20de%20arte/Proceso/piece-wrapped-yellow-net.jpg" alt="Finished piece wrapped in yellow net, ready to ship" loading="lazy">
           </div>
-          <p class="process__moment-label"><span>03</span> Envío</p>
+          <p class="process__moment-label"><span>03</span> <span data-i18n="process.step3">Envío</span></p>
         </div>
         <div class="process__moment">
           <div class="process__moment-media">
             <img src="assets/images/fotos%20de%20arte/unboxing/piece-wrapped-package-front.jpg" alt="The finished piece in its packaging box, ready to be opened" loading="lazy">
           </div>
-          <p class="process__moment-label"><span>04</span> El paquete</p>
+          <p class="process__moment-label"><span>04</span> <span data-i18n="process.step4">El paquete</span></p>
         </div>
       </div>
     </section>
@@ -188,13 +191,13 @@
           <img src="assets/images/fotos%20de%20arte/Foto%20de%20Teresita%20la%20artista/99ADE429-FB7D-4290-9FAF-ADF149D477F1.JPG" alt="Teresita Castelli, artist from Buenos Aires, in her studio" loading="lazy">
         </figure>
         <div class="statement__text animate-on-scroll">
-          <p class="eyebrow">Statement</p>
-          <h2 class="section-title" id="statement-title">Teresita Castelli</h2>
-          <p class="statement__opening">My work begins with a needle, a thread, and a memory that may or may not have happened.</p>
-          <p>I embroider miniature worlds — small scenes suspended between what I remember and what I imagine. Each piece is hand-stitched, built slowly, detail by detail, carrying the quiet weight of intimate time.</p>
-          <p>The acrylic dome that holds each work is not merely a frame. It has physical presence — weight, dimension — yet reads as light and transparent. It draws a real boundary around what lives inside, preserving these worlds intact, sheltered from dust and from forgetting.</p>
-          <p>I make things that ask to be looked at closely. Things that feel private, almost secret — as if you've stumbled upon something not meant for everyone.</p>
-          <a href="#commissions" class="btn btn--ghost">Commission a piece →</a>
+          <p class="eyebrow" data-i18n="statement.eyebrow">Statement</p>
+          <h2 class="section-title" id="statement-title" data-i18n="statement.title">Teresita Castelli</h2>
+          <p class="statement__opening" data-i18n="statement.opening">My work begins with a needle, a thread, and a memory that may or may not have happened.</p>
+          <p data-i18n="statement.p1">I embroider miniature worlds — small scenes suspended between what I remember and what I imagine. Each piece is hand-stitched, built slowly, detail by detail, carrying the quiet weight of intimate time.</p>
+          <p data-i18n="statement.p2">The acrylic dome that holds each work is not merely a frame. It has physical presence — weight, dimension — yet reads as light and transparent. It draws a real boundary around what lives inside, preserving these worlds intact, sheltered from dust and from forgetting.</p>
+          <p data-i18n="statement.p3">I make things that ask to be looked at closely. Things that feel private, almost secret — as if you've stumbled upon something not meant for everyone.</p>
+          <a href="#commissions" class="btn btn--ghost" data-i18n="statement.cta">Commission a piece →</a>
         </div>
       </div>
     </section>
@@ -203,29 +206,29 @@
     <section class="commissions" id="commissions" aria-labelledby="commissions-title">
       <div class="container">
         <header class="section-header animate-on-scroll">
-          <p class="eyebrow">Bespoke</p>
-          <h2 class="section-title" id="commissions-title">Commissions</h2>
-          <p class="section-lede">Tell me about the place it will live, the story you want held inside it, and the size. I'll propose a palette and a concept, and we go from there.</p>
+          <p class="eyebrow" data-i18n="commissions.eyebrow">Bespoke</p>
+          <h2 class="section-title" id="commissions-title" data-i18n="commissions.title">Commissions</h2>
+          <p class="section-lede" data-i18n="commissions.lede">Tell me about the place it will live, the story you want held inside it, and the size. I'll propose a palette and a concept, and we go from there.</p>
         </header>
         <div class="commissions__stories">
           <article class="commission-story animate-on-scroll">
-            <p class="eyebrow">Petite · 20 × 20 cm</p>
-            <h3>A piece the size of your palm</h3>
-            <p>A single embroidered miniature, floated inside a small acrylic box. For the bedside table, the intimate corner, the gift that says something words can't. Two to four weeks from first conversation to delivery.</p>
+            <p class="eyebrow" data-i18n="commissions.petiteEyebrow">Petite · 20 × 20 cm</p>
+            <h3 data-i18n="commissions.petiteTitle">A piece the size of your palm</h3>
+            <p data-i18n="commissions.petiteDesc">A single embroidered miniature, floated inside a small acrylic box. For the bedside table, the intimate corner, the gift that says something words can't. Two to four weeks from first conversation to delivery.</p>
           </article>
           <article class="commission-story animate-on-scroll">
-            <p class="eyebrow">Jardín · 45 × 65 cm</p>
-            <h3>A garden of nine figures</h3>
-            <p>Nine hand-embroidered miniatures arranged across a gold-leaf field. A world you can spend time in — each figure a character, each placement a choice. Six to ten weeks, because a garden cannot be rushed.</p>
+            <p class="eyebrow" data-i18n="commissions.jardinEyebrow">Jardín · 45 × 65 cm</p>
+            <h3 data-i18n="commissions.jardinTitle">A garden of nine figures</h3>
+            <p data-i18n="commissions.jardinDesc">Nine hand-embroidered miniatures arranged across a gold-leaf field. A world you can spend time in — each figure a character, each placement a choice. Six to ten weeks, because a garden cannot be rushed.</p>
           </article>
           <article class="commission-story animate-on-scroll">
-            <p class="eyebrow">Signature · 65 × 75 cm</p>
-            <h3>A constellation of twelve</h3>
-            <p>The studio's most-requested format. Room for twelve figures across a gold-leaf field — a constellation, a family, a memory held open. Eight to twelve weeks from first sketch to finished work.</p>
+            <p class="eyebrow" data-i18n="commissions.signatureEyebrow">Signature · 65 × 75 cm</p>
+            <h3 data-i18n="commissions.signatureTitle">A constellation of twelve</h3>
+            <p data-i18n="commissions.signatureDesc">The studio's most-requested format. Room for twelve figures across a gold-leaf field — a constellation, a family, a memory held open. Eight to twelve weeks from first sketch to finished work.</p>
           </article>
         </div>
         <div class="commissions__cta animate-on-scroll">
-          <a href="#contact" class="btn btn--primary">Begin a conversation →</a>
+          <a href="#contact" class="btn btn--primary" data-i18n="commissions.cta">Begin a conversation →</a>
         </div>
       </div>
     </section>
@@ -241,14 +244,14 @@
             aria-label="Close-up video of hand embroidery in progress"></video>
         </figure>
         <div class="contact__inner animate-on-scroll">
-          <p class="eyebrow">Contact</p>
-          <h2 class="contact__title" id="contact-title">Let's make<br>something small<br><em>and unforgettable.</em></h2>
-          <p class="contact__lede">For acquiring a piece, commissioning a new one, or exhibiting the work, write to me directly. I reply to every message personally.</p>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 class="contact__title" id="contact-title" data-i18n-html="contact.title">Let's make<br>something small<br><em>and unforgettable.</em></h2>
+          <p class="contact__lede" data-i18n="contact.lede">For acquiring a piece, commissioning a new one, or exhibiting the work, write to me directly. I reply to every message personally.</p>
           <a href="mailto:teresitagcastelli@gmail.com" class="contact__email">teresitagcastelli@gmail.com</a>
           <ul class="contact__links">
-            <li><a href="https://wa.me/5491155771131" target="_blank" rel="noopener">WhatsApp ↗</a></li>
-            <li><a href="https://www.instagram.com/t.t.s_proceso/" target="_blank" rel="noopener">Instagram ↗</a></li>
-            <li><a href="mailto:teresitagcastelli@gmail.com">Email ↗</a></li>
+            <li><a href="https://wa.me/5491155771131" target="_blank" rel="noopener" data-i18n="contact.whatsapp">WhatsApp ↗</a></li>
+            <li><a href="https://www.instagram.com/t.t.s_proceso/" target="_blank" rel="noopener" data-i18n="contact.instagram">Instagram ↗</a></li>
+            <li><a href="mailto:teresitagcastelli@gmail.com" data-i18n="contact.email">Email ↗</a></li>
           </ul>
         </div>
       </div>
@@ -259,10 +262,11 @@
   <footer class="footer">
     <div class="container footer__inner">
       <p>© <span id="year"></span> Teresita Castelli · Buenos Aires, Argentina</p>
-      <p class="footer__sig">Hecho a mano con hilo, oro y paciencia.</p>
+      <p class="footer__sig" data-i18n="footer.sig">Hecho a mano con hilo, oro y paciencia.</p>
     </div>
   </footer>
 
+  <script src="i18n.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

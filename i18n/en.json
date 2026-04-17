@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Teresita Castelli · Hand-embroidered miniatures in acrylic",
+    "description": "Teresita Castelli is an Argentinian artist making delicate hand-embroidered miniatures encased in clear acrylic boxes. Originals and bespoke commissions."
+  },
+  "nav": {
+    "work": "Work",
+    "process": "Process",
+    "statement": "Statement",
+    "commissions": "Commissions",
+    "inquire": "Inquire",
+    "shop": "Tienda"
+  },
+  "hero": {
+    "eyebrow": "Buenos Aires · est. 2019",
+    "title": "Tiny worlds<br><em>stitched by hand,</em><br>held in clear acrylic.",
+    "lede": "I'm Teresita, an Argentinian artist making hand-embroidered miniatures and acrylic-box paintings. Each piece is sewn one thread at a time, then suspended inside a transparent box so you can walk around it.",
+    "cta": "See the work",
+    "link": "Commission a piece →"
+  },
+  "work": {
+    "eyebrow": "Selected work",
+    "title": "Pieces from the studio",
+    "lede": "Each work is one-of-a-kind. Embroidered miniatures: figures, garments, small talismans, mounted on gold leaf and floated inside a handmade clear acrylic box. No two are the same size, and no two are ever repeated.",
+    "filterAll": "All",
+    "filterAcrylic": "Acrylic boxes",
+    "filterEmbroidery": "Embroidery studies",
+    "card1Type": "Acrylic (open) box · Available",
+    "card1Desc": "An available original. Embroidered figures on a gentle textile, ready to travel to its new home.",
+    "card1Tags1": "Available",
+    "card1Tags2": "Paspartou · thread · acrylic",
+    "card2Type": "Acrylic box · Available",
+    "card2Desc": "A compact world. Available original ready to hang.",
+    "card2Tags1": "Available",
+    "card2Tags2": "Thread · acrylic",
+    "card3Type": "Embroidery detail",
+    "card3Desc": "Each miniature stitched thread by thread. Up close, the scale of the work reveals itself.",
+    "card3Tags1": "Detail",
+    "card3Tags2": "Cotton · silk thread",
+    "inquire": "Inquire →"
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "Slow work,<br>in small rooms.",
+    "p1": "Each piece begins with a thread and a drawing. The miniatures are embroidered by hand on cotton or silk, sometimes barely two centimeters across. Once finished, they're mounted on gold-leafed panels and sealed inside a custom-cut acrylic box.",
+    "p2": "Nothing is printed. Nothing is batched. A single work takes between two weeks and three months to finish.",
+    "step1": "Encaje",
+    "step2": "Montaje",
+    "step3": "Envío",
+    "step4": "El paquete"
+  },
+  "statement": {
+    "eyebrow": "Statement",
+    "title": "Teresita Castelli",
+    "opening": "My work begins with a needle, a thread, and a memory that may or may not have happened.",
+    "p1": "I embroider miniature worlds — small scenes suspended between what I remember and what I imagine. Each piece is hand-stitched, built slowly, detail by detail, carrying the quiet weight of intimate time.",
+    "p2": "The acrylic dome that holds each work is not merely a frame. It has physical presence — weight, dimension — yet reads as light and transparent. It draws a real boundary around what lives inside, preserving these worlds intact, sheltered from dust and from forgetting.",
+    "p3": "I make things that ask to be looked at closely. Things that feel private, almost secret — as if you've stumbled upon something not meant for everyone.",
+    "cta": "Commission a piece →"
+  },
+  "commissions": {
+    "eyebrow": "Bespoke",
+    "title": "Commissions",
+    "lede": "Tell me about the place it will live, the story you want held inside it, and the size. I'll propose a palette and a concept, and we go from there.",
+    "petiteEyebrow": "Petite · 20 × 20 cm",
+    "petiteTitle": "A piece the size of your palm",
+    "petiteDesc": "A single embroidered miniature, floated inside a small acrylic box. For the bedside table, the intimate corner, the gift that says something words can't. Two to four weeks from first conversation to delivery.",
+    "jardinEyebrow": "Jardín · 45 × 65 cm",
+    "jardinTitle": "A garden of nine figures",
+    "jardinDesc": "Nine hand-embroidered miniatures arranged across a gold-leaf field. A world you can spend time in — each figure a character, each placement a choice. Six to ten weeks, because a garden cannot be rushed.",
+    "signatureEyebrow": "Signature · 65 × 75 cm",
+    "signatureTitle": "A constellation of twelve",
+    "signatureDesc": "The studio's most-requested format. Room for twelve figures across a gold-leaf field — a constellation, a family, a memory held open. Eight to twelve weeks from first sketch to finished work.",
+    "cta": "Begin a conversation →"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's make<br>something small<br><em>and unforgettable.</em>",
+    "lede": "For acquiring a piece, commissioning a new one, or exhibiting the work, write to me directly. I reply to every message personally.",
+    "whatsapp": "WhatsApp ↗",
+    "instagram": "Instagram ↗",
+    "email": "Email ↗"
+  },
+  "footer": {
+    "sig": "Hecho a mano con hilo, oro y paciencia."
+  },
+  "skip": "Skip to content"
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Teresita Castelli · Miniaturas bordadas a mano en acrílico",
+    "description": "Teresita Castelli es una artista argentina que crea delicadas miniaturas bordadas a mano dentro de cajas de acrílico transparente. Originales y encargos a medida."
+  },
+  "nav": {
+    "work": "Obra",
+    "process": "Proceso",
+    "statement": "Manifiesto",
+    "commissions": "Encargos",
+    "inquire": "Consultar",
+    "shop": "Tienda"
+  },
+  "hero": {
+    "eyebrow": "Buenos Aires · desde 2019",
+    "title": "Mundos pequeños<br><em>bordados a mano,</em><br>suspendidos en acrílico.",
+    "lede": "Soy Teresita, una artista argentina que crea miniaturas bordadas a mano y pinturas en cajas de acrílico. Cada pieza se cose hilo por hilo y se suspende dentro de una caja transparente para que puedas caminar a su alrededor.",
+    "cta": "Ver la obra",
+    "link": "Encargar una pieza →"
+  },
+  "work": {
+    "eyebrow": "Obra seleccionada",
+    "title": "Piezas del estudio",
+    "lede": "Cada obra es única. Miniaturas bordadas: figuras, vestidos, pequeños talismanes, montados sobre pan de oro y suspendidos dentro de una caja de acrílico hecha a mano. No hay dos del mismo tamaño, y ninguna se repite.",
+    "filterAll": "Todas",
+    "filterAcrylic": "Cajas de acrílico",
+    "filterEmbroidery": "Estudios de bordado",
+    "card1Type": "Caja de acrílico (abierta) · Disponible",
+    "card1Desc": "Un original disponible. Figuras bordadas sobre un textil delicado, listo para viajar a su nuevo hogar.",
+    "card1Tags1": "Disponible",
+    "card1Tags2": "Paspartú · hilo · acrílico",
+    "card2Type": "Caja de acrílico · Disponible",
+    "card2Desc": "Un mundo compacto. Original disponible listo para colgar.",
+    "card2Tags1": "Disponible",
+    "card2Tags2": "Hilo · acrílico",
+    "card3Type": "Detalle de bordado",
+    "card3Desc": "Cada miniatura bordada hilo por hilo. De cerca, la escala del trabajo se revela.",
+    "card3Tags1": "Detalle",
+    "card3Tags2": "Algodón · hilo de seda",
+    "inquire": "Consultar →"
+  },
+  "process": {
+    "eyebrow": "Proceso",
+    "title": "Trabajo lento,<br>en cuartos pequeños.",
+    "p1": "Cada pieza empieza con un hilo y un dibujo. Las miniaturas se bordan a mano sobre algodón o seda, a veces de apenas dos centímetros. Una vez terminadas, se montan sobre paneles con pan de oro y se sellan dentro de una caja de acrílico cortada a medida.",
+    "p2": "Nada se imprime. Nada se produce en serie. Una sola obra tarda entre dos semanas y tres meses en terminarse.",
+    "step1": "Encaje",
+    "step2": "Montaje",
+    "step3": "Envío",
+    "step4": "El paquete"
+  },
+  "statement": {
+    "eyebrow": "Manifiesto",
+    "title": "Teresita Castelli",
+    "opening": "Mi trabajo empieza con una aguja, un hilo y un recuerdo que puede o no haber sucedido.",
+    "p1": "Bordo mundos en miniatura — pequeñas escenas suspendidas entre lo que recuerdo y lo que imagino. Cada pieza está cosida a mano, construida lentamente, detalle por detalle, cargando el peso silencioso del tiempo íntimo.",
+    "p2": "La cúpula de acrílico que contiene cada obra no es simplemente un marco. Tiene presencia física — peso, dimensión — pero se percibe ligera y transparente. Dibuja un límite real alrededor de lo que vive adentro, preservando estos mundos intactos, protegidos del polvo y del olvido.",
+    "p3": "Hago cosas que piden ser miradas de cerca. Cosas que se sienten privadas, casi secretas — como si hubieras encontrado algo que no estaba destinado a todos.",
+    "cta": "Encargar una pieza →"
+  },
+  "commissions": {
+    "eyebrow": "A medida",
+    "title": "Encargos",
+    "lede": "Contame sobre el lugar donde va a vivir, la historia que querés que guarde adentro, y el tamaño. Te propongo una paleta y un concepto, y arrancamos.",
+    "petiteEyebrow": "Petite · 20 × 20 cm",
+    "petiteTitle": "Una pieza del tamaño de tu mano",
+    "petiteDesc": "Una sola miniatura bordada, flotando dentro de una pequeña caja de acrílico. Para la mesa de luz, el rincón íntimo, el regalo que dice lo que las palabras no pueden. De dos a cuatro semanas desde la primera conversación hasta la entrega.",
+    "jardinEyebrow": "Jardín · 45 × 65 cm",
+    "jardinTitle": "Un jardín de nueve figuras",
+    "jardinDesc": "Nueve miniaturas bordadas a mano dispuestas sobre un campo de pan de oro. Un mundo en el que podés quedarte — cada figura un personaje, cada ubicación una elección. De seis a diez semanas, porque un jardín no se puede apurar.",
+    "signatureEyebrow": "Signature · 65 × 75 cm",
+    "signatureTitle": "Una constelación de doce",
+    "signatureDesc": "El formato más pedido del estudio. Espacio para doce figuras sobre un campo de pan de oro — una constelación, una familia, un recuerdo abierto. De ocho a doce semanas desde el primer boceto hasta la obra terminada.",
+    "cta": "Iniciar una conversación →"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hagamos algo<br>pequeño<br><em>e inolvidable.</em>",
+    "lede": "Para adquirir una pieza, encargar una nueva o exponer la obra, escribime directamente. Respondo cada mensaje personalmente.",
+    "whatsapp": "WhatsApp ↗",
+    "instagram": "Instagram ↗",
+    "email": "Email ↗"
+  },
+  "footer": {
+    "sig": "Hecho a mano con hilo, oro y paciencia."
+  },
+  "skip": "Ir al contenido"
+}
